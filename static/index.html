@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>WebGIS 课程作业</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/3.21/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.21/esri/css/esri.css">
+    <!-- <link rel="stylesheet" href="https://js.arcgis.com/4.9/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.9/esri/css/main.css"> -->
+    <link rel="stylesheet" href="./css/demo.css">
+    <style></style>
+    <script src="https://js.arcgis.com/3.21/"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./libs/main.1.js"></script>
+    <script></script>
+</head>
+
+
+<body class="claro" style="font-size: 0.75em;">
+
+    <div id="info">
+        <div align="center">绘制</div>
+        <button id="Multipoint">
+            <image id="Multipoint" src="./images/point.png"></image>
+        </button>
+        <button id="Line">
+            <image id="Line" src="./images/line.png"></image>
+        </button>
+        <button id="Polyline">
+            <image id="Polyline" src="./images/line_chart.png"></image>
+        </button>
+        <button id="FreehandPolyline">
+            <image id="FreehandPolyline" src="./images/draw.png"></image>
+        </button>
+        <button id="Triangle">
+            <image id="Triangle" src="./images/triangle.png"></image>
+        </button>
+        <button id="Extent">
+            <image id="Extent" src="./images/rectangle.png"></image>
+        </button>
+        <button id="Circle">
+            <image id="Circle" src="./images/circle.png"></image>
+        </button>
+        <button id="Ellipse">
+            <image id="Ellipse" src="./images/ellipse.png"></image>
+        </button>
+        <button id="Polygon">
+            <image id="Polygon" src="./images/polygon.png"></image>
+        </button>
+        <button id="FreehandPolygon">
+            <image id="FreehandPolygon" src="./images/free_polygon.png"></image>
+        </button>
+    </div>
+
+
+    <div id="search"></div>
+
+    <div id="map" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'">
+    </div>
+
+</body>
+
+</html>

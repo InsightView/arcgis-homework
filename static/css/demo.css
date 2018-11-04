@@ -1,0 +1,66 @@
+html,
+body,
+#map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#search {
+    z-index: 20;
+    margin: auto;
+    height: 95px;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+}
+
+#info {
+    top: 200px;
+    color: #444;
+    height: auto;
+    font-family: arial;
+    left: 16px;
+    margin: 2px;
+    padding: 3px;
+    position: absolute;
+    width: 40px;
+    z-index: 40;
+    border: solid 1px #666;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+html,
+body,
+#mapDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#info button {
+    background-color: white;
+    padding: 2px;
+    text-align: center;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30px;
+    border: 1px solid
+}
+
+#info button:hover {
+    padding: 2px;
+    text-align: center;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30px;
+    border: 1px solid #1e90ff;
+    color: #1e90ff;
+}
